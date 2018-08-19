@@ -16,7 +16,9 @@
         "test:watch": "testcafe-live chrome test/e2e/",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
-    "dependencies": {},
+    "dependencies": {
+        "xpath-to-css": "^1.0.2"
+    },
     "devDependencies": {
         "testcafe": "^0.21.1",
         "testcafe-live": "^0.1.3"
